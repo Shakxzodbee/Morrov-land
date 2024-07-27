@@ -1,0 +1,21 @@
+h3{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23.87px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.sidebar{
+    padding-top: 100px;
+}
+li img{
+    width: 200px;
+}
+.div-carousel{
+    display: flex;
+    justify-content: space-between;
+    padding: 200px;
+}
+.thirst{
+    padding-top: 20px;
+}
