@@ -1,0 +1,152 @@
+span {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 28.37px;
+    text-align: center;
+}
+
+.para-p {
+    font-size: 100px;
+    line-height: 119px;
+    text-align: center;
+    color: #FFFFFF;
+}
+h5{
+    display: none;
+}
+
+.counter0-div {
+   width: 1000px;
+    display: flex;
+    margin: auto;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 50.12px;
+    text-align: center !important;
+    color: #fff;
+}
+
+.para-index {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    line-height: 23.87px;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.VorkIndoDiv {
+    margin-top: 150px;
+}
+
+.li-teg {
+    margin-left: 70px;
+    margin-top: 40px;
+}
+
+@media (max-width:1200px) {
+    h2 {
+        font-size: 30px;
+        margin-top: 10px;
+        line-height: 35px;
+    }
+
+    .para-index {
+        font-size: 15px;
+    }
+
+    span {
+        font-size: 20px;
+    }
+
+    .para-p {
+        font-size: 70px;
+    }
+
+    .li-teg {
+        margin-left: 150px;
+    }
+}
+
+@media (max-width:1140px) {
+    .counter0-div {
+        display: inline;
+    }
+}
+
+@media (max-width:880px) {
+    h2 {
+        font-size: 60px;
+        margin-top: 10px;
+        line-height: 55px;
+    }
+
+    .para-index {
+        font-size: 25px;
+    }
+
+    span {
+        font-size: 40px;
+    }
+
+    .para-p {
+        font-size: 80px;
+    }
+}
+
+@media (max-width:640px) {
+    span {
+        padding-right: 40px;
+        font-size: 40px;
+    }
+}
+
+@media (max-width:600px) {
+    .para-p {
+        font-size: 60px;
+        padding-right: 60px;
+        line-height: 50px;
+    }
+
+    span {
+        font-size: 15px;
+    }
+}
+
+@media (max-width:440px) {
+    .para-p {
+        font-size: 80px;
+        margin-right: 10px;
+    }
+    .para-index{
+       font-size: 20px; 
+    }
+    h2{
+        font-size: 45px;
+    }
+}
+@media (max-width:418px) {
+    .para-p{
+        font-size: 60px;
+    }
+    span{
+        font-size: 10px;
+        padding-right: 25px;
+    }
+}
+@media (max-width:350px) {
+    .counter0-div{
+        display: none;
+    }
+    h5{
+        display: flex;
+        color: #655858;
+        font-weight: 700;
+        font-size: 30px;
+        text-align: center;
+        margin-top: 30px;
+    }
+}
